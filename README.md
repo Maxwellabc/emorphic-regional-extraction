@@ -10,6 +10,8 @@ This is a finite structural artifact. It is not the original E-morphic
 implementation, a reproduction of its published physical results, or a
 complete release of this project's physical experiments.
 
+Public source: https://github.com/Maxwellabc/emorphic-regional-extraction
+
 ## Run the synthetic smoke test
 
 Use Python 3.12 from this directory; no package installation is required:
@@ -54,8 +56,8 @@ mapped area, delay, power, speedup or superiority over a physical baseline.
 - `LICENSE`, `LICENSE_SCOPE.md`, `THIRD_PARTY_NOTICES.md`, `third_party/`:
   project licensing, scope and original upstream attribution.
 
-The two empty package initializers and packaging files are distinct from the
-copied source. The release ZIP checksum covers every packaged file, including
+The two package initializers each contain one newline and no executable
+statements; they and the packaging files are distinct from the copied source. The release ZIP checksum covers every packaged file, including
 the manifest and smoke report. No ABC binary, library, circuit collection,
 physical result, manuscript, private session, credential, validation split or
 holdout split is included.
@@ -65,6 +67,14 @@ manifest binds exact bytes, so clones and source archives must retain original
 line endings rather than apply a machine's `core.autocrlf` setting. Do not
 normalize these files without regenerating the manifest and validating a
 fresh Git export.
+
+The initial GitHub web upload normalized the generated smoke report from
+CRLF to LF and represented each zero-byte initializer by a single LF. This
+packaging revision reconciles the manifest with those uploaded bytes. All
+fourteen prototype source/test modules and the third-party license remain
+byte for byte unchanged. The published smoke report uses LF; regenerating
+it on another platform may change line endings without changing its test
+results. The report and manifest itself remain outside the manifest inventory.
 
 ## Fixed upstream sources for physical reconstruction
 
