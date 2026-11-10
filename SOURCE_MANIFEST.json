@@ -1,0 +1,182 @@
+{
+  "artifact": "finite structural reproducibility source under MIT",
+  "files": [
+    {
+      "bytes": 77,
+      "origin": "new_or_updated_packaging_file",
+      "path": ".gitattributes",
+      "sha256": "ce2743b03f242e71c03b4d332a6de534e5f4b514cd1e7548958e5be53b752e3c"
+    },
+    {
+      "bytes": 29,
+      "origin": "new_or_updated_packaging_file",
+      "path": ".gitignore",
+      "sha256": "218797fb9e42d778f9f7bef83828593b6c3f6442e5c69baacd01c3d085e0e595"
+    },
+    {
+      "bytes": 1084,
+      "origin": "new_or_updated_packaging_file",
+      "path": "LICENSE",
+      "sha256": "bb0c8da0c106dbc0ff51cc837551c80078f05768dbeee9e272870d7e411b8a3d"
+    },
+    {
+      "bytes": 869,
+      "origin": "new_or_updated_packaging_file",
+      "path": "LICENSE_SCOPE.md",
+      "sha256": "bd70cc1d28731152b9a1034a4507d7d39b7a002eb11441454eab2fa2da9ab730"
+    },
+    {
+      "bytes": 6199,
+      "origin": "new_or_updated_packaging_file",
+      "path": "README.md",
+      "sha256": "7bc4cf9671ac69668a69d5c28e3ea5a22cbe74fdfa04770c08212866374f53f1"
+    },
+    {
+      "bytes": 2403,
+      "origin": "new_or_updated_packaging_file",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "ff529d7a551262bea36de2b06f947f8b9afe8c5216310a2add0c488c321d0246"
+    },
+    {
+      "bytes": 0,
+      "origin": "new_or_updated_packaging_file",
+      "path": "research/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 15885,
+      "origin": "byte_for_byte_copy",
+      "path": "research/egraph_lab.py",
+      "sha256": "5bdbb892902e996ef02f55fdce2a5b8401ec4d56b00573e17b45b4fe7a62d150",
+      "source_path": "research/egraph_lab.py"
+    },
+    {
+      "bytes": 9103,
+      "origin": "byte_for_byte_copy",
+      "path": "research/feedback_neighborhood.py",
+      "sha256": "516a7af55c0473b9fdb286fda1ecedd7c5f69a7a6795ed0bcf997eb75a8a80f9",
+      "source_path": "research/feedback_neighborhood.py"
+    },
+    {
+      "bytes": 4494,
+      "origin": "byte_for_byte_copy",
+      "path": "research/feedback_neighborhood_filtered.py",
+      "sha256": "b3fbd3e1eb8d3ae9a3c92100c442e688e1e54258ef8a490347c9b9cfad455f87",
+      "source_path": "research/feedback_neighborhood_filtered.py"
+    },
+    {
+      "bytes": 6688,
+      "origin": "byte_for_byte_copy",
+      "path": "research/feedback_neighborhood_lazy.py",
+      "sha256": "58e87cb9828999642490ba2cca64eed1efb45933484fa1050d96f47c563e41fc",
+      "source_path": "research/feedback_neighborhood_lazy.py"
+    },
+    {
+      "bytes": 8576,
+      "origin": "byte_for_byte_copy",
+      "path": "research/local_neighborhood.py",
+      "sha256": "22817230eccacdff224cae042714d63a6726864507e5072dd07ebcb315d550b0",
+      "source_path": "research/local_neighborhood.py"
+    },
+    {
+      "bytes": 8073,
+      "origin": "byte_for_byte_copy",
+      "path": "research/region_cycle_filter.py",
+      "sha256": "fb7be37d9daa171e14b2013f28d57256fd94c4572eee9bef19781d0755cdab86",
+      "source_path": "research/region_cycle_filter.py"
+    },
+    {
+      "bytes": 7344,
+      "origin": "byte_for_byte_copy",
+      "path": "research/region_cycle_scc_reference.py",
+      "sha256": "a958c0c903987373900656711b683499b3d355d6de578e2ccfc39e5136cfd411",
+      "source_path": "research/region_cycle_scc_reference.py"
+    },
+    {
+      "bytes": 8663,
+      "origin": "new_or_updated_packaging_file",
+      "path": "run_synthetic_smoke.py",
+      "sha256": "84eb392520ba4ade7f845c04f5ac8b04c639551a8364fdd08bb72f409de42ba4"
+    },
+    {
+      "bytes": 0,
+      "origin": "new_or_updated_packaging_file",
+      "path": "tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6860,
+      "origin": "byte_for_byte_copy",
+      "path": "tests/test_egraph_lab.py",
+      "sha256": "c729e67f2f1690bdcad8183d91d3aabce6121f8f78fba7607a9cec9bdb73a979",
+      "source_path": "tests/test_egraph_lab.py"
+    },
+    {
+      "bytes": 11751,
+      "origin": "byte_for_byte_copy",
+      "path": "tests/test_feedback_neighborhood.py",
+      "sha256": "cb612691ba3c82cfeb5f3288928050d7d132003798d941945564a7cef2241a6c",
+      "source_path": "tests/test_feedback_neighborhood.py"
+    },
+    {
+      "bytes": 4101,
+      "origin": "byte_for_byte_copy",
+      "path": "tests/test_feedback_neighborhood_filtered.py",
+      "sha256": "b6cfbfd4be39de5d95d20415c23fe5e7f3e165c8113ed721abddcc82bdd02ef3",
+      "source_path": "tests/test_feedback_neighborhood_filtered.py"
+    },
+    {
+      "bytes": 10359,
+      "origin": "byte_for_byte_copy",
+      "path": "tests/test_feedback_neighborhood_lazy.py",
+      "sha256": "36cd3fc1b62e927b4fea3d8c6c9ad19ff9d581ae7efb1809f39271530c1f322f",
+      "source_path": "tests/test_feedback_neighborhood_lazy.py"
+    },
+    {
+      "bytes": 13945,
+      "origin": "byte_for_byte_copy",
+      "path": "tests/test_local_neighborhood.py",
+      "sha256": "817c11ca255f3b237bd335dbc8384daa080f53c13e3578a8ef4c7139469ad54e",
+      "source_path": "tests/test_local_neighborhood.py"
+    },
+    {
+      "bytes": 7543,
+      "origin": "byte_for_byte_copy",
+      "path": "tests/test_region_cycle_filter.py",
+      "sha256": "c32f1d0011b777536e85a9a108835e339e99d5c1999a2e0faf0ae30d5c636991",
+      "source_path": "tests/test_region_cycle_filter.py"
+    },
+    {
+      "bytes": 9663,
+      "origin": "byte_for_byte_copy",
+      "path": "tests/test_region_cycle_scc_reference.py",
+      "sha256": "b9a1e3ec2edace147df00f0feba04442ff13a9f7d6a78c6b4c58d630025c41a9",
+      "source_path": "tests/test_region_cycle_scc_reference.py"
+    },
+    {
+      "bytes": 1536,
+      "origin": "byte_for_byte_copy",
+      "path": "third_party/smoothe/LICENSE.txt",
+      "sha256": "c563b26f68450b0e97bf6b57f679ac3313994fbc6d6899ad6597653a246ffc57",
+      "source_path": "research/literature_sources/smoothe_attribution_LICENSE.txt"
+    }
+  ],
+  "generated_report_paths": [
+    "SYNTHETIC_SMOKE_RESULT.json"
+  ],
+  "git_byte_preservation": ".gitattributes sets * -text to disable line-ending conversion; hashes bind exact original bytes.",
+  "hash_algorithm": "sha256",
+  "ignored_local_metadata": [
+    ".git/",
+    "__pycache__/",
+    ".omx/"
+  ],
+  "license": "MIT for independent project material; preserved third-party license keeps original terms",
+  "manifest_self_excluded": true,
+  "original_local_archive_sha256": "46e9c69e6d4c2a0e928f4927c4b8b7e33812c029b760277ac233f4826b671153",
+  "paths": "relative to bundle for path; relative to original project for source_path",
+  "snapshot_date": "2026-11-10",
+  "snapshot_version": "mit-public-source-v2",
+  "source_revision": "byte-bound workspace snapshot; original project root is not a Git checkout",
+  "status": "MIT licensed; local public-release candidate, remote publication not asserted"
+}
